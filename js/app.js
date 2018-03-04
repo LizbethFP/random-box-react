@@ -7,6 +7,7 @@ const containerExample = () => {
     <div style={{ backgroundColor: colors[Math.floor(Math.random() * colors.length)], fontFamily: fonts[Math.floor(Math.random() * fonts.length)], padding:'10%'}}>
       <h1 style={{textAlign:'center'}}>{title}</h1>
       <p style={{ textAlign: 'center'}}>{parragraph}</p>
+      <p className="btn-reload" style={{ textAlign: 'center' }}><a href="index.html">¡Pruébame!</a></p>    
     </div>
   );
 
